@@ -1,0 +1,26 @@
+.ch{
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #f9f9fa;
+  border-bottom: 1px solid #e1e6ef; }
+  
+.ch strong {color:#ffb812  }  
+
+.chrd{background:#fcb819; color:#000; font-size: 18px; margin-bottom: 20px; padding:5px 20px 3px}
+
+.ae-card {
+  display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+	border:solid 1px #ccc;
+    
+}
+.ae-body, .ae-block {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.active-new {
+    background: #fcb819 !important;
+    color: #000 !important;
+}

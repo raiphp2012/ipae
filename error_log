@@ -1,0 +1,71 @@
+[25-Jul-2017 06:58:16 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 393
+[25-Jul-2017 07:47:07 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 33
+[25-Jul-2017 07:47:09 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 33
+[25-Jul-2017 07:47:11 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 33
+[25-Jul-2017 07:47:14 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 33
+[25-Jul-2017 07:54:26 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 67
+[25-Jul-2017 09:16:12 UTC] PHP Fatal error:  Call to undefined function pint_r() in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 382
+[25-Jul-2017 09:16:51 UTC] PHP Fatal error:  Call to undefined function pint_r() in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 382
+[25-Jul-2017 12:47:51 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 516
+[25-Jul-2017 12:49:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 514
+[25-Jul-2017 12:49:32 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 514
+[25-Jul-2017 12:49:48 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 516
+[25-Jul-2017 12:50:05 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 514
+[25-Jul-2017 12:50:08 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 514
+[25-Jul-2017 12:51:41 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 542
+[25-Jul-2017 12:53:57 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 514
+[25-Jul-2017 12:53:59 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 514
+[25-Jul-2017 12:54:02 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 514
+[25-Jul-2017 12:55:33 UTC] PHP Fatal error:  Class declarations may not be nested in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 517
+[25-Jul-2017 12:55:36 UTC] PHP Fatal error:  Class declarations may not be nested in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 517
+[25-Jul-2017 12:55:47 UTC] PHP Fatal error:  Class declarations may not be nested in /home/webpioneers/public_html/ip-ae.com/application/controllers/welcome.php on line 517
+[23-Aug-2017 12:24:31 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/webpioneers/public_html/ip-ae.com/application/views/product_listing.php on line 121
+[23-Aug-2017 12:24:36 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/webpioneers/public_html/ip-ae.com/application/views/product_listing.php on line 121
+[23-Aug-2017 12:24:50 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/webpioneers/public_html/ip-ae.com/application/views/product_listing.php on line 121
+[23-Aug-2017 12:24:53 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/webpioneers/public_html/ip-ae.com/application/views/product_listing.php on line 121
+[24-Aug-2017 13:37:13 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/webpioneers/public_html/ip-ae.com/application/views/payment-response.php on line 91
+[24-Aug-2017 13:40:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/webpioneers/public_html/ip-ae.com/application/views/payment-response.php on line 92
+[24-Aug-2017 13:45:23 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/webpioneers/public_html/ip-ae.com/application/views/payment-response.php on line 93
+[26-Aug-2017 10:09:23 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 654
+[26-Aug-2017 10:09:24 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 654
+[26-Aug-2017 10:09:40 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 654
+[26-Aug-2017 10:11:29 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 654
+[28-Aug-2017 09:07:44 UTC] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in /home/webpioneers/public_html/ip-ae.com/application/views/checkout.php on line 391
+[28-Aug-2017 09:07:56 UTC] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in /home/webpioneers/public_html/ip-ae.com/application/views/checkout.php on line 391
+[28-Aug-2017 09:14:00 UTC] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in /home/webpioneers/public_html/ip-ae.com/application/views/checkout.php on line 392
+[28-Aug-2017 09:14:01 UTC] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in /home/webpioneers/public_html/ip-ae.com/application/views/checkout.php on line 392
+[28-Aug-2017 16:34:36 UTC] PHP Fatal error:  Call to a member function initialize() on null in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 1311
+[29-Aug-2017 03:09:10 UTC] PHP Fatal error:  Call to a member function initialize() on null in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 1311
+[29-Aug-2017 05:29:36 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 1210
+[30-Aug-2017 06:32:36 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 92
+[30-Aug-2017 06:33:55 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:35:04 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:35:23 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:35:25 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:35:25 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:35:25 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:35:26 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:35:58 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:36:00 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:36:26 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:36:45 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 06:36:47 UTC] PHP Parse error:  syntax error, unexpected '$multipartSep' (T_VARIABLE), expecting ')' in /home/webpioneers/public_html/ip-ae.com/application/controllers/test.php on line 95
+[30-Aug-2017 12:36:56 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:36:59 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:37:03 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:37:20 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:37:30 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:48:32 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:48:36 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:49:29 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:50:35 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:50:40 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[30-Aug-2017 12:51:24 UTC] PHP Fatal error:  Call to undefined function getProductRating() in /home/webpioneers/public_html/ip-ae.com/application/views/short-product.php on line 17
+[31-Aug-2017 09:51:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/webpioneers/public_html/ip-ae.com/application/views/product_listing.php on line 206
+[31-Aug-2017 09:51:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/webpioneers/public_html/ip-ae.com/application/views/product_listing.php on line 206
+[02-Sep-2017 15:06:57 UTC] PHP Parse error:  syntax error, unexpected 'ID' (T_STRING) in /home/webpioneers/public_html/ip-ae.com/application/views/product_listing.php on line 269
+[02-Sep-2017 15:07:01 UTC] PHP Parse error:  syntax error, unexpected 'ID' (T_STRING) in /home/webpioneers/public_html/ip-ae.com/application/views/product_listing.php on line 269
+[04-Sep-2017 12:47:14 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 255
+[04-Sep-2017 12:47:17 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 255
+[04-Sep-2017 12:47:25 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 255
+[04-Sep-2017 12:47:30 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/webpioneers/public_html/ip-ae.com/application/controllers/ipae.php on line 255
