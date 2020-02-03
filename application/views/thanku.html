@@ -1,0 +1,978 @@
+<!DOCTYPE HTML <html>  
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+    
+    <title>Checkout - IPAE</title>
+     <link rel="icon" type="image/png"   href="http://www.ip-ae.com/assests/img/favicon.png" />
+
+    <!-- CSS -->
+    <link href="http://www.ip-ae.com/assests/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://www.ip-ae.com/assests/css/animate.css" rel="stylesheet">
+    <link href="assests/css/bootsnav.css" rel="stylesheet">
+	 <link href="assests/css/style_01.css" rel="stylesheet">
+    <link href="assests/css/style.css" rel="stylesheet">
+     <link href="assests/css/bootstrap.css" rel="stylesheet">
+	
+    
+    <style type="text/css">
+      
+        .error
+        {
+          color: red;
+          font-weight: 700;
+        }
+        .from-row label{
+              font-weight: bold !important ;
+              color: #333 !important;
+        }
+
+
+    </style>
+    
+</head>
+<body>     
+  
+    <!-- Start Navigation -->
+      
+       
+    
+    
+
+
+
+    <nav class="navbar navbar-default navbar-sticky bootsnav">
+
+        <!-- Start Top Search -->
+        <div class="top-search">
+            <div class="container">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Search -->
+
+        <div class="container">            
+
+
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="Logo" href="http://www.ip-ae.com/"><img src="http://www.ip-ae.com/assests/img/logo1.png" class="logo" alt=""></a>
+            </div>
+            <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                    
+                                    <li><a class="active-new"  href="http://www.ip-ae.com/category/iphone" >iPhone</a></li>
+                                     <li class=""><a href="http://www.ip-ae.com/category/accessories">Accessories</a></li>
+                  
+			
+  <li class="button-dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle">
+                              Support
+                              
+                        </a>
+                   <ul class=" dropdown-menu ac-gn-bagview-nav-list ac-gn-bagview-nav-nobtn">
+            <li class="ac-gn-bagview-nav-item ac-gn-bagview-nav-item-bag">
+                <a href="http://www.ip-ae.com/welcome/doa" class="ac-gn-bagview-nav-link ac-gn-bagview-nav-link-bag">
+                     DOA (Dead on Arrival)
+                </a>
+            </li>
+            <li class="ac-gn-bagview-nav-item ac-gn-bagview-nav-item-favorites">
+                <a href="http://www.ip-ae.com/welcome/warranty"  class="ac-gn-bagview-nav-link ac-gn-bagview-nav-link-bag">
+                    Warranty
+                </a>
+            </li>
+             <li class="ac-gn-bagview-nav-item ac-gn-bagview-nav-item-favorites">
+                <a href="http://www.ip-ae.com/welcome/sale_support" class="ac-gn-bagview-nav-link ac-gn-bagview-nav-link-bag">
+                    After Sales Support
+                </a>
+            </li>
+           </ul>
+            </li>
+            
+            
+            
+            <li><a href="http://www.ip-ae.com/contact-us">Contact Us</a></li>
+			<li><a href="http://www.ip-ae.com/Login" data-ac-autom="gn-bagview-link-favorites">
+                    <img src="assests/img/signIn1.png" class="cart-thumb" alt=""> LogIn/SignUp
+                </a></li>
+                 
+ <li class="button-dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle">
+                            <i class="fa fa-shopping-bag" style="color:#fff;margin-top: 10px">      
+                              1                            </i>
+                            
+                        </a>
+<ul class="dropdown-menu ac-gn-bagview-nav-list ac-gn-bagview-nav-nobtn">
+            <li class="ac-gn-bagview-nav-item ac-gn-bagview-nav-item-bag">
+                <a href="" data-evar1="[pageName] |  | bag overlay |  | bag" class="ac-gn-bagview-nav-link ac-gn-bagview-nav-link-bag" data-ac-autom="gn-bagview-link-bag"><img src="http://www.ip-ae.com/assests/img/signIn.png" class="cart-thumb" alt="">
+                    Devendra                </a>
+            </li>
+            <li class="ac-gn-bagview-nav-item ac-gn-bagview-nav-item-favorites">
+                <a href="http://www.ip-ae.com/bag" data-evar1="[pageName] |  | bag overlay |  | favorites" class="ac-gn-bagview-nav-link ac-gn-bagview-nav-link-favorites" data-ac-autom="gn-bagview-link-favorites"><img src="http://www.ip-ae.com/assests/img/bag1.png" class="cart-thumb" alt="">
+                    Bag
+                </a>
+            </li>
+       <!--     <li class="ac-gn-bagview-nav-item ac-gn-bagview-nav-item-orders">
+                <a href="#" data-evar1="[pageName] |  | bag overlay |  | orders" class="ac-gn-bagview-nav-link ac-gn-bagview-nav-link-orders" data-ac-autom="gn-bagview-link-orders"><img src="http://www.ip-ae.com/assests/img/favorites (1).png" class="cart-thumb" alt="">
+                    Favorites
+                </a>
+            </li>-->
+            <li class="ac-gn-bagview-nav-item ac-gn-bagview-nav-item-account">
+                <a href="http://www.ip-ae.com/account" data-evar1="[pageName] |  | bag overlay |  | account" class="ac-gn-bagview-nav-link ac-gn-bagview-nav-link-account" data-ac-autom="gn-bagview-link-account"><img src="http://www.ip-ae.com/assests/img/account (1).png" class="cart-thumb" alt="">
+                    Account
+                </a>
+            </li>
+            <li class="ac-gn-bagview-nav-item ac-gn-bagview-nav-item-signOut">
+                <a href="http://www.ip-ae.com/welcome/logout" data-evar1="[pageName] |  | bag overlay |  | signOut" class="ac-gn-bagview-nav-link ac-gn-bagview-nav-link-signOut" data-ac-autom="gn-bagview-link-signOut"><img src="http://www.ip-ae.com/assests/img/signIn.png" class="cart-thumb" alt="">
+                    Sign out 
+                </a>
+            </li>
+        </ul>
+                    </li>
+				
+                </ul>
+            </div><!-- /.navbar-collapse -->
+			
+        </div>   
+    </nav>
+ 
+    <div class="clearfix"></div>
+
+      <div class="pld">
+         <!--Check Out Area Start-->
+            <div class="check-out-area">
+            <div class="container">
+               <div class="row">
+                  
+
+ <!--Check Box one-->                   
+
+<div class="col-md-6 col-xs-12 col-sm-12">
+    <div class="ae-body">
+	<br><br><br>
+<h1 class="text-center">Thank You.</h1>
+<h3 class="text-center">Your order was completed successfully.</h3>
+    </div>
+
+
+</div>
+<!--Check boxt 2-->
+
+
+<!--Check box 3-->
+<div class="col-md-6 col-xs-12 col-sm-12">
+
+    <div class="ae-body text-left">
+	 <p> <img src="assests/img/sms.jpg" style="border:0px" /> I have to admit I was intrigued by all the languages and faces<br> in the video, so this unique twist had me engaged.
+<p> You can the My Account page at any time to check the the status of your order. Or click here to <a href="#"><b>print a copy of your receipt.</b></a></p>
+<br><br>
+<button class="btn btn-warning" style="border-radius:5px;">View order</button> <button class="btn btn-warning border-radius" style="border-radius:5px;">Continue Shopping</button>
+    </div>
+
+</div>
+<div class="col-md-12 col-xs-12 col-sm-12">
+
+    <div class="ae-body">
+	 
+
+    </div>
+
+</div>
+
+
+<!--Check Out Area End-->
+
+
+
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+  
+<!--footer-->
+<footer class="footer1">
+<div class="container">
+<div class="row"><!-- row -->
+    
+                <div class="col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                          <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Product Range</h1>
+                                
+                                <ul>
+                                  <li><a  href="http://www.ip-ae.com/category/iphone">iPhone</a></li>
+                                    <li><a  href="http://www.ip-ae.com/category/accessories">Accessories</a></li>
+                                    
+                                </ul>
+                    
+              </li>
+                            
+                        </ul>
+
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                          <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">About iP-ae</h1>
+                                
+                                <ul>
+                  <li><a  href="http://www.ip-ae.com/about-us">About Us</a></li>
+                  <!--  <li><a  href="#">Management Team</a></li> -->
+                      <li><a  href="http://www.ip-ae.com/contact-us">Careers</a></li>
+                      <li><a  href="http://www.ip-ae.com/welcome/event">Events</a></li>
+                          <li><a  href="http://www.ip-ae.com/contact-us">Contact Us</a></li>
+                        <!--  <li><a  href="#">Site Map</a></li> -->
+                       
+                          <li><a  href="#" target="_blank"> Blogs</a></li>
+                                    
+                                </ul>
+                    
+              </li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                          <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget">Legal</h1>
+                                
+                                <ul>
+
+
+                <li><a href="http://www.ip-ae.com/privacy-policy">Privacy Policy</a></li>
+                 <li><a href="http://www.ip-ae.com/cancellation-policy">Cancellation Policy</a></li>
+            <li><a href="http://www.ip-ae.com/refund-policy">Return Policy</a></li>
+       
+           <li><a  href="http://www.ip-ae.com/faqs">FAQs</a></li>
+          <li><a href="http://www.ip-ae.com/term-condition">Terms of Use</a></li>
+         
+
+                                </ul>
+                    
+              </li>
+                            
+                        </ul>
+                         
+                      
+                </div>
+                
+                       <div class=" col-md-3"><!-- widgets column left -->
+                 <h1 class="title-widget">We are here also </h1>
+      <a href="https://www.facebook.com/Apple-iphone-143606739560766/" class="btn btn-block btn-social btn-facebook">
+        <i class="fa fa-facebook"></i> <p class="txt-jus">Share with Facebook</p>
+      </a>
+     
+      <a href="https://plus.google.com/u/0/110038587378386372327" class="btn btn-block btn-social btn-google-plus">
+        <i class="fa fa-google-plus"></i>  <p class="txt-jus">Share with Google</p>
+      </a>
+      <a href="https://www.instagram.com/appleiphoneipae/" class="btn btn-block btn-social btn-instagram">
+        <i class="fa fa-instagram"></i>  <p class="txt-jus">Share with Instagram</p>
+      </a>
+      <a href="https://www.linkedin.com/in/apple-iphone-997792148/" class="btn btn-block btn-social btn-linkedin">
+        <i class="fa fa-linkedin"></i>  <p class="txt-jus">Share with LinkedIn</p>
+      </a>
+     
+      <a href="https://twitter.com/appleiphoneipae" class="btn btn-block btn-social btn-twitter">
+        <i class="fa fa-twitter"></i>  <p class="txt-jus">Share with Twitter</p>
+      </a>
+                 
+                      
+                </div><!-- widgets column left end -->
+                </div>
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12">
+
+        <div class="copyright" style="font-size: 10px;">
+
+          <p style="color: #fff;font-size: 11px;">Copyright © 2017 <a style="color: #fff;" href="http://www.ip-ae.com/" target="_blank">Naman General Trading LLC.</a>&nbsp;All rights reserved.</p>
+
+        </div>
+
+      </div>
+
+      
+
+    </div>
+
+  </div>
+
+</div>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/59b661f04854b82732fef4d0/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+
+
+$('input[name="phone"]').keyup(function(e)
+                                {
+  if (/\D/g.test(this.value))
+  {
+    // Filter non-digits from input value.
+    this.value = this.value.replace(/\D/g, '');
+  }
+});
+</script>
+<!--End of Tawk.to Script-->
+    
+  <!-- START JAVASCRIPT -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://www.ip-ae.com/assests/js/bootstrap.min.js"></script>
+    
+    <!-- Bootsnavs -->
+    <script src="http://www.ip-ae.com/assests/js/bootsnav.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script type="text/javascript">
+   
+      function get_subcategory(id) {
+      //alert(id); exit();
+
+        $.ajax({
+          type:'POST',
+            url: 'http://www.ip-ae.com/ipae/get_subcategory_product1/' ,
+            data: {id:id},
+            success: function(response)
+            {
+              //alert(response);
+               
+               jQuery('#state_id').html(response);
+            }
+          
+
+        });
+    }
+
+    function get_subcategory2(id) {
+      //alert(id); exit();
+
+        $.ajax({
+          type:'POST',
+            url: 'http://www.ip-ae.com/ipae/get_subcategory_product1/' ,
+            data: {id:id},
+            success: function(response)
+            {
+              //alert(response);
+               
+               jQuery('#state_id2').html(response);
+            }
+          
+
+        });
+    }
+      
+    </script>
+
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Edit Shipping Address</h4>
+      </div>
+
+      <form method="post" <form action="http://www.ip-ae.com/ipae/update_address" method="post" accept-charset="utf-8">>
+      <div class="modal-body">
+      <input type="hidden" name="user_id" value="8">
+       <div class="form-group">
+      <label for="usr">First Name:</label>
+      <input type="text" name="firstName" class="form-control" value="Devendra  Verma" required>
+    </div>
+    <div class="form-group">
+      <label for="usr">Last Name:</label>
+      <input type="text" name="lastName" class="form-control" value="sadasd" required>
+    </div>
+    <div class="form-group">
+      <label for="usr">Email:</label>
+      <input type="email" name="email" class="form-control" value="deverma706@gmail.com" required>
+    </div>
+    <div class="form-group">
+      <label for="usr">Phone:</label>
+      <input type="text" name="phone" class="form-control" value="503135845" required>
+    </div>
+    <div class="form-group">
+      <label for="usr">Address:</label>
+      <input type="text" name="address" class="form-control" value="asdasd" required>
+    </div>
+    <div class="form-group">
+      <label for="usr">City:</label>
+      <input type="text" name="city" class="form-control" value="asd" required>
+    </div>
+    <div class="form-group">
+      <label for="usr">Postel code:</label>
+      <input type="text" name="pin_number" class="form-control" value="" required>
+    </div>
+    <div class="form-group">
+      <label for="usr">Country:</label>
+      <select name="country_id" id="country_id" onchange="return get_subcategory(this.value)"  required >
+
+                                             <option value=""></option>
+                                                                                            <option value="1">Afghanistan</option>
+                                                                                            <option value="2">Albania</option>
+                                                                                            <option value="3">Algeria</option>
+                                                                                            <option value="4">American Samoa</option>
+                                                                                            <option value="5">Andorra</option>
+                                                                                            <option value="6">Angola</option>
+                                                                                            <option value="7">Anguilla</option>
+                                                                                            <option value="8">Antarctica</option>
+                                                                                            <option value="9">Antigua and Barbuda</option>
+                                                                                            <option value="10">Argentina</option>
+                                                                                            <option value="11">Armenia</option>
+                                                                                            <option value="12">Aruba</option>
+                                                                                            <option value="13">Australia</option>
+                                                                                            <option value="14">Austria</option>
+                                                                                            <option value="15">Azerbaijan</option>
+                                                                                            <option value="16">Bahamas</option>
+                                                                                            <option value="17">Bahrain</option>
+                                                                                            <option value="18">Bangladesh</option>
+                                                                                            <option value="19">Barbados</option>
+                                                                                            <option value="20">Belarus</option>
+                                                                                            <option value="21">Belgium</option>
+                                                                                            <option value="22">Belize</option>
+                                                                                            <option value="23">Benin</option>
+                                                                                            <option value="24">Bermuda</option>
+                                                                                            <option value="25">Bhutan</option>
+                                                                                            <option value="26">Bolivia</option>
+                                                                                            <option value="27">Bosnia and Herzegovina</option>
+                                                                                            <option value="28">Botswana</option>
+                                                                                            <option value="29">Bouvet Island</option>
+                                                                                            <option value="30">Brazil</option>
+                                                                                            <option value="31">British Indian Ocean Territory</option>
+                                                                                            <option value="32">Brunei Darussalam</option>
+                                                                                            <option value="33">Bulgaria</option>
+                                                                                            <option value="34">Burkina Faso</option>
+                                                                                            <option value="35">Burundi</option>
+                                                                                            <option value="36">Cambodia</option>
+                                                                                            <option value="37">Cameroon</option>
+                                                                                            <option value="38">Canada</option>
+                                                                                            <option value="39">Cape Verde</option>
+                                                                                            <option value="40">Cayman Islands</option>
+                                                                                            <option value="41">Central African Republic</option>
+                                                                                            <option value="42">Chad</option>
+                                                                                            <option value="43">Chile</option>
+                                                                                            <option value="44">China</option>
+                                                                                            <option value="45">Christmas Island</option>
+                                                                                            <option value="46">Cocos (Keeling) Islands</option>
+                                                                                            <option value="47">Colombia</option>
+                                                                                            <option value="48">Comoros</option>
+                                                                                            <option value="49">Congo</option>
+                                                                                            <option value="50">Cook Islands</option>
+                                                                                            <option value="51">Costa Rica</option>
+                                                                                            <option value="52">Cote D'Ivoire</option>
+                                                                                            <option value="53">Croatia</option>
+                                                                                            <option value="54">Cuba</option>
+                                                                                            <option value="55">Cyprus</option>
+                                                                                            <option value="56">Czech Republic</option>
+                                                                                            <option value="57">Denmark</option>
+                                                                                            <option value="58">Djibouti</option>
+                                                                                            <option value="59">Dominica</option>
+                                                                                            <option value="60">Dominican Republic</option>
+                                                                                            <option value="61">East Timor</option>
+                                                                                            <option value="62">Ecuador</option>
+                                                                                            <option value="63">Egypt</option>
+                                                                                            <option value="64">El Salvador</option>
+                                                                                            <option value="65">Equatorial Guinea</option>
+                                                                                            <option value="66">Eritrea</option>
+                                                                                            <option value="67">Estonia</option>
+                                                                                            <option value="68">Ethiopia</option>
+                                                                                            <option value="69">Falkland Islands (Malvinas)</option>
+                                                                                            <option value="70">Faroe Islands</option>
+                                                                                            <option value="71">Fiji</option>
+                                                                                            <option value="72">Finland</option>
+                                                                                            <option value="74">France, Metropolitan</option>
+                                                                                            <option value="75">French Guiana</option>
+                                                                                            <option value="76">French Polynesia</option>
+                                                                                            <option value="77">French Southern Territories</option>
+                                                                                            <option value="78">Gabon</option>
+                                                                                            <option value="79">Gambia</option>
+                                                                                            <option value="80">Georgia</option>
+                                                                                            <option value="81">Germany</option>
+                                                                                            <option value="82">Ghana</option>
+                                                                                            <option value="83">Gibraltar</option>
+                                                                                            <option value="84">Greece</option>
+                                                                                            <option value="85">Greenland</option>
+                                                                                            <option value="86">Grenada</option>
+                                                                                            <option value="87">Guadeloupe</option>
+                                                                                            <option value="88">Guam</option>
+                                                                                            <option value="89">Guatemala</option>
+                                                                                            <option value="90">Guinea</option>
+                                                                                            <option value="91">Guinea-Bissau</option>
+                                                                                            <option value="92">Guyana</option>
+                                                                                            <option value="93">Haiti</option>
+                                                                                            <option value="94">Heard and Mc Donald Islands</option>
+                                                                                            <option value="95">Honduras</option>
+                                                                                            <option value="96">Hong Kong</option>
+                                                                                            <option value="97">Hungary</option>
+                                                                                            <option value="98">Iceland</option>
+                                                                                            <option value="99">India</option>
+                                                                                            <option value="100">Indonesia</option>
+                                                                                            <option value="101">Iran (Islamic Republic of)</option>
+                                                                                            <option value="102">Iraq</option>
+                                                                                            <option value="103">Ireland</option>
+                                                                                            <option value="104">Israel</option>
+                                                                                            <option value="105">Italy</option>
+                                                                                            <option value="106">Jamaica</option>
+                                                                                            <option value="107">Japan</option>
+                                                                                            <option value="108">Jordan</option>
+                                                                                            <option value="109">Kazakhstan</option>
+                                                                                            <option value="110">Kenya</option>
+                                                                                            <option value="111">Kiribati</option>
+                                                                                            <option value="112">North Korea</option>
+                                                                                            <option value="113">Korea, Republic of</option>
+                                                                                            <option value="114">Kuwait</option>
+                                                                                            <option value="115">Kyrgyzstan</option>
+                                                                                            <option value="116">Lao People's Democratic Republic</option>
+                                                                                            <option value="117">Latvia</option>
+                                                                                            <option value="118">Lebanon</option>
+                                                                                            <option value="119">Lesotho</option>
+                                                                                            <option value="120">Liberia</option>
+                                                                                            <option value="121">Libyan Arab Jamahiriya</option>
+                                                                                            <option value="122">Liechtenstein</option>
+                                                                                            <option value="123">Lithuania</option>
+                                                                                            <option value="124">Luxembourg</option>
+                                                                                            <option value="125">Macau</option>
+                                                                                            <option value="126">FYROM</option>
+                                                                                            <option value="127">Madagascar</option>
+                                                                                            <option value="128">Malawi</option>
+                                                                                            <option value="129">Malaysia</option>
+                                                                                            <option value="130">Maldives</option>
+                                                                                            <option value="131">Mali</option>
+                                                                                            <option value="132">Malta</option>
+                                                                                            <option value="133">Marshall Islands</option>
+                                                                                            <option value="134">Martinique</option>
+                                                                                            <option value="135">Mauritania</option>
+                                                                                            <option value="136">Mauritius</option>
+                                                                                            <option value="137">Mayotte</option>
+                                                                                            <option value="138">Mexico</option>
+                                                                                            <option value="139">Micronesia, Federated States of</option>
+                                                                                            <option value="140">Moldova, Republic of</option>
+                                                                                            <option value="141">Monaco</option>
+                                                                                            <option value="142">Mongolia</option>
+                                                                                            <option value="143">Montserrat</option>
+                                                                                            <option value="144">Morocco</option>
+                                                                                            <option value="145">Mozambique</option>
+                                                                                            <option value="146">Myanmar</option>
+                                                                                            <option value="147">Namibia</option>
+                                                                                            <option value="148">Nauru</option>
+                                                                                            <option value="149">Nepal</option>
+                                                                                            <option value="150">Netherlands</option>
+                                                                                            <option value="151">Netherlands Antilles</option>
+                                                                                            <option value="152">New Caledonia</option>
+                                                                                            <option value="153">New Zealand</option>
+                                                                                            <option value="154">Nicaragua</option>
+                                                                                            <option value="155">Niger</option>
+                                                                                            <option value="156">Nigeria</option>
+                                                                                            <option value="157">Niue</option>
+                                                                                            <option value="158">Norfolk Island</option>
+                                                                                            <option value="159">Northern Mariana Islands</option>
+                                                                                            <option value="160">Norway</option>
+                                                                                            <option value="161">Oman</option>
+                                                                                            <option value="162">Pakistan</option>
+                                                                                            <option value="163">Palau</option>
+                                                                                            <option value="164">Panama</option>
+                                                                                            <option value="165">Papua New Guinea</option>
+                                                                                            <option value="166">Paraguay</option>
+                                                                                            <option value="167">Peru</option>
+                                                                                            <option value="168">Philippines</option>
+                                                                                            <option value="169">Pitcairn</option>
+                                                                                            <option value="170">Poland</option>
+                                                                                            <option value="171">Portugal</option>
+                                                                                            <option value="172">Puerto Rico</option>
+                                                                                            <option value="173">Qatar</option>
+                                                                                            <option value="174">Reunion</option>
+                                                                                            <option value="175">Romania</option>
+                                                                                            <option value="176">Russian Federation</option>
+                                                                                            <option value="177">Rwanda</option>
+                                                                                            <option value="178">Saint Kitts and Nevis</option>
+                                                                                            <option value="179">Saint Lucia</option>
+                                                                                            <option value="180">Saint Vincent and the Grenadines</option>
+                                                                                            <option value="181">Samoa</option>
+                                                                                            <option value="182">San Marino</option>
+                                                                                            <option value="183">Sao Tome and Principe</option>
+                                                                                            <option value="184">Saudi Arabia</option>
+                                                                                            <option value="185">Senegal</option>
+                                                                                            <option value="186">Seychelles</option>
+                                                                                            <option value="187">Sierra Leone</option>
+                                                                                            <option value="188">Singapore</option>
+                                                                                            <option value="189">Slovak Republic</option>
+                                                                                            <option value="190">Slovenia</option>
+                                                                                            <option value="191">Solomon Islands</option>
+                                                                                            <option value="192">Somalia</option>
+                                                                                            <option value="193">South Africa</option>
+                                                                                            <option value="194">South Georgia &amp; South Sandwich Islands</option>
+                                                                                            <option value="195">Spain</option>
+                                                                                            <option value="196">Sri Lanka</option>
+                                                                                            <option value="197">St. Helena</option>
+                                                                                            <option value="198">St. Pierre and Miquelon</option>
+                                                                                            <option value="199">Sudan</option>
+                                                                                            <option value="200">Suriname</option>
+                                                                                            <option value="201">Svalbard and Jan Mayen Islands</option>
+                                                                                            <option value="202">Swaziland</option>
+                                                                                            <option value="203">Sweden</option>
+                                                                                            <option value="204">Switzerland</option>
+                                                                                            <option value="205">Syrian Arab Republic</option>
+                                                                                            <option value="206">Taiwan</option>
+                                                                                            <option value="207">Tajikistan</option>
+                                                                                            <option value="208">Tanzania, United Republic of</option>
+                                                                                            <option value="209">Thailand</option>
+                                                                                            <option value="210">Togo</option>
+                                                                                            <option value="211">Tokelau</option>
+                                                                                            <option value="212">Tonga</option>
+                                                                                            <option value="213">Trinidad and Tobago</option>
+                                                                                            <option value="214">Tunisia</option>
+                                                                                            <option value="215">Turkey</option>
+                                                                                            <option value="216">Turkmenistan</option>
+                                                                                            <option value="217">Turks and Caicos Islands</option>
+                                                                                            <option value="218">Tuvalu</option>
+                                                                                            <option value="219">Uganda</option>
+                                                                                            <option value="220">Ukraine</option>
+                                                                                            <option value="221">United Arab Emirates</option>
+                                                                                            <option value="222">United Kingdom</option>
+                                                                                            <option value="223">United States</option>
+                                                                                            <option value="224">United States Minor Outlying Islands</option>
+                                                                                            <option value="225">Uruguay</option>
+                                                                                            <option value="226">Uzbekistan</option>
+                                                                                            <option value="227">Vanuatu</option>
+                                                                                            <option value="228">Vatican City State (Holy See)</option>
+                                                                                            <option value="229">Venezuela</option>
+                                                                                            <option value="230">Viet Nam</option>
+                                                                                            <option value="231">Virgin Islands (British)</option>
+                                                                                            <option value="232">Virgin Islands (U.S.)</option>
+                                                                                            <option value="233">Wallis and Futuna Islands</option>
+                                                                                            <option value="234">Western Sahara</option>
+                                                                                            <option value="235">Yemen</option>
+                                                                                            <option value="237">Democratic Republic of Congo</option>
+                                                                                            <option value="238">Zambia</option>
+                                                                                            <option value="239">Zimbabwe</option>
+                                                                                            <option value="242">Montenegro</option>
+                                                                                            <option value="243">Serbia</option>
+                                                                                            <option value="244">Aaland Islands</option>
+                                                                                            <option value="245">Bonaire, Sint Eustatius and Saba</option>
+                                                                                            <option value="246">Curacao</option>
+                                                                                            <option value="247">Palestinian Territory, Occupied</option>
+                                                                                            <option value="248">South Sudan</option>
+                                                                                            <option value="249">St. Barthelemy</option>
+                                                                                            <option value="250">St. Martin (French part)</option>
+                                                                                            <option value="251">Canary Islands</option>
+                                                                                            <option value="252">Ascension Island (British)</option>
+                                                                                            <option value="253">Kosovo, Republic of</option>
+                                                                                            <option value="254">Isle of Man</option>
+                                                                                            <option value="255">Tristan da Cunha</option>
+                                                                                            <option value="256">Guernsey</option>
+                                                                                            <option value="257">Jersey</option>
+                                                                                         </select>
+    </div>
+        <div class="form-group">
+      <label for="usr">State/Zone:</label>
+       <select name="stateid" id="state_id" required>
+                                             <option value="Sharjah "></option>
+                                          <option value="">--Select the state/zone --</option>
+                                               
+                                          </select>
+    </div>
+    <div class="form-group">
+     
+      <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+      </div>
+      </form>
+      <div class="modal-footer bg-primary">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#panel2").hide();
+    $("#panel3").hide();
+    $("#panel4").hide();
+    
+    $('#continue1').click(function(){
+      if($("input[name='address']").is(':checked')) 
+        { 
+          var radioValue = $("input[name='address']:checked").val();
+          //alert(radioValue); 
+          
+          
+          $("#panel2").show();
+          $('#shipping_address_id').val(radioValue);
+        }
+        else{
+          alert('Please choose Shipping address first.');
+        }
+       
+    });
+
+    $('#continue2').click(function(){
+      
+      if($("input[name='payment']").is(':checked')) 
+        { 
+          var radioValue = $("input[name='payment']:checked").val();
+          //alert(radioValue); 
+          
+          
+          //$("#panel4").show();
+          $("#panel3").show();
+          $('#payment_method').val(radioValue);
+        }
+        else{
+          alert('Please choose payment method first.');
+        }
+        
+    });
+
+
+   /* ----------------------------------------------------*/
+
+ $('#continue23').click(function(){
+      
+      if($("input[name='delivery_type']").is(':checked')) 
+        { 
+          var radioValue2 = $("input[name='delivery_type']:checked").val();
+        //  alert(radioValue2); 
+          
+          
+          $("#panel3").show();
+          $('#delivery_method').val(radioValue2);
+        }
+        else{
+          alert('Please choose delivery method first.');
+        }
+        
+    });
+
+
+
+
+
+
+    /*----------------------------------------------------*/
+
+
+
+
+    $("input[name='payment']").click(function(){
+         var x = $("input[name='payment']:checked").val();
+         //var y = $("input[name='delivery_type']:checked").val();
+          if(x == 'cod'){
+              $("#flat_ship").html("AED 1");
+              $("#shipping_rate").show();
+              //$("#delivery_rate").hide();
+              $("#grandTotal").html("AED 4100 ");
+              $("#grandTotal2").html("AED 4100 ");
+           
+          }
+          else {
+                           $("#flat_ship").html("AED 0");
+
+             $("#grandTotal").html("AED 4099 ");
+             $("#grandTotal2").html("AED 4099 ");
+          }
+
+          $('#payment_method').val(x);
+    });
+
+
+    $("input[name='address']").click(function(){
+         var radioValue = $("input[name='address']:checked").val();
+         
+          $('#shipping_address_id').val(radioValue);
+    })
+       
+        
+});
+  
+</script>
+
+
+
+   <!-- Load jQuery and jQuery-Validate scripts -->
+
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+      
+        <script>
+            // Wait for the DOM to be ready
+   $(function() {
+  // Initialize form validation on the registration form.
+  // It has the name attribute "registration"
+  $("form[name='registration']").validate({
+    // Specify validation rules
+    rules: {
+      // The key name on the left side is the name attribute
+      // of an input field. Validation rules are defined
+      // on the right side
+      firstName: "required",
+      lastName: "required",
+
+      address: "required",
+      stateid: "required",
+
+      suite:"required",
+
+   
+
+    phone: {
+        required: true,
+        maxlength:9,
+      },
+ 
+  
+   
+      email: {
+        required: true,
+        // Specify that email should be validated
+        // by the built-in "email" rule
+        email: true
+      },
+     
+   
+    },
+    // Specify validation error messages
+    messages: {
+      firstName:"Please enter your firstname",
+      lastName:"Please enter your lastname",
+   
+   phone:{
+   required:"plese enter contact number ",
+   minlength:"minlength 9 digit",
+   maxlength:"maxlenth 9 digit",
+   },
+   address:"Please enter a Street  address",
+    suite:"Please enter a  suit, flat details",
+   
+   stateid:"Please select the state first",
+      
+      email: "Please enter a valid email address"
+    },
+    // Make sure the form is submitted to the destination defined
+    // in the "action" attribute of the form when valid
+    submitHandler: function(form) {
+      form.submit();
+    }
+  });
+});
+  </script>
+
+
+
+ <script type="text/javascript">
+
+
+$('.alphaonly').bind('keyup blur',function(){ 
+    var node = $(this);
+    node.val(node.val().replace(/[^a-zA-Z ]/g,'') ); }
+);
+
+$('.contact1').bind('keyup blur',function(){ 
+    var node = $(this);
+    node.val(node.val().replace(/[^0-9]/g,'') ); }
+);
+
+
+</script>
+
+
+<script>
+$(document).ready(function(){
+    $("input").focus(function(){
+        $(this).css("background-color", "#cccccc");
+    });
+    $("input").blur(function(){
+        $(this).css("background-color", "#ffffff");
+    });
+});
+</script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+ 
+window.setTimeout(function() {
+    $("#alert").fadeTo(2000, 0).slideUp(2000, function(){
+        $(this).remove(); 
+    });
+}, 1000);
+ 
+});
+</script>
+
+<script type="text/javascript">
+                      $(document).ready(function(){
+                        $("input:radio[name=address]:first").attr('checked', true);
+                        $("#flat_ship").html("AED 1 ");
+                        $("#grandTotal").html("AED 4100 ");
+                        $("#grandTotal2").html("AED 4100 ");
+
+                    });
+</script>
+
+</body>
+
+</html>
